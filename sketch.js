@@ -92,7 +92,7 @@ function draw() {
     }
     
     if (ground.x < windowWidth/2){
-      ground.x = ground.width/20;
+      ground.x = ground.width/25;
     }
     
     //jump when the space key is pressed
