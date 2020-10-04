@@ -91,7 +91,7 @@ function draw() {
        checkPointSound.play() 
     }
     
-    if (ground.x < 0){
+    if (ground.x < windowWidth/2){
       ground.x = ground.width/20;
     }
     
